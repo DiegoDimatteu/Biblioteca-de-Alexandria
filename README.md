@@ -41,7 +41,7 @@ Em outra instância do terminal, execute o comando para iniciar o banco de dados
 npm run json:server
 ```
 
-Após isso, entre na conexão local para ter acesso as funcionalidades da API.
+Após isso, entre na rede local (que será o segundo endereço mostrado na instância do primeiro terminal) para ter acesso as funcionalidades da API.
 
 
 
