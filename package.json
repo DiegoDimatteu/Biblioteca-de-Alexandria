@@ -1,0 +1,23 @@
+{
+  "name": "biblioteca-de-alexandria",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "json-server": "^0.16.3",
+    "material-ui": "^0.20.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "1.1.5",
+    "reactstrap": "^8.9.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "json:server": "json-server --watch db.json --port 8000"
+  }
+}
