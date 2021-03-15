@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
-import axios from 'axios';
-import { Input, FormGroup, Label, Modal, ModalHeader, ModalBody, ModalFooter, Table, Button } from 'reactstrap';
+import React, { Component } from "react";
+import axios from "axios";
+import { Input, FormGroup, Label, Modal, ModalHeader, ModalBody, ModalFooter, Table, Button } from "reactstrap";
 import "./App.css";
 
 class App extends Component {
   state = {
     books: [],
     newBookData: {
-      title: '',
-      rating: ''
+      title: "",
+      rating: ""
     },
     editBookData: {
-      id: '',
-      title: '',
-      rating: ''
+      id: "",
+      title: "",
+      rating: ""
     },
     newBookModal: false,
     editBookModal: false
@@ -32,28 +32,28 @@ class App extends Component {
     });
   }
   addBook() {
-    axios.post('http://localhost:3000/books', this.state.newBookData).then((response) => {
+    axios.post("http://localhost:3000/books", this.state.newBookData).then((response) => {
       let { books } = this.state;
 
       books.push(response.data);
 
       this.setState({ books, newBookModal: false, newBookData: {
-        title: '',
-        rating: ''
+        title: "",
+        rating: ""
       }});
     });
   }
   updateBook() {
     let { title, rating } = this.state.editBookData;
 
-    axios.put('http://localhost:3000/books/' + this.state.editBookData.id, {
+    axios.put("http://localhost:3000/books/" + this.state.editBookData.id, {
       title, rating
     }).then((response) => {
       this._refreshBooks();
 
       this.setState({
-        editBookModal: false, editBookData: { id: '', title: '', rating: '' }
-      })
+        editBookModal: false, editBookData: { id: "", title: "", rating: "" }
+      });
     });
   }
   editBook(id, title, rating) {
@@ -62,15 +62,15 @@ class App extends Component {
     });
   }
   deleteBook(id) {
-    axios.delete('http://localhost:3000/books/' + id).then((response) => {
+    axios.delete("http://localhost:3000/books/" + id).then((response) => {
       this._refreshBooks();
     });
   }
   _refreshBooks() {
-    axios.get('http://localhost:3000/books').then((response) => {
+    axios.get("http://localhost:3000/books").then((response) => {
       this.setState({
         books: response.data
-      })
+      });
     });
   }
   render() {
@@ -85,7 +85,7 @@ class App extends Component {
             <Button color="danger" size="sm" onClick={this.deleteBook.bind(this, book.id)}>Deletar</Button>
           </td>
         </tr>
-      )
+      );
     });
     return (
      
