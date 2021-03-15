@@ -3,11 +3,11 @@ body {
     font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', sans-serif;
   }
 
-  div {
+div {
     margin: 0px;
   }
 
-  .Button {
+.Button {
     background-color: #f0eb0e;
     color: #0f082f;
     text-align: center;
@@ -31,7 +31,7 @@ body {
     height: 85px;
   }
 
-  .Label {
+.Label {
     width: 100px;
     color: #ffffff;
     font-family: Impact, " Charcoal", " sans-serif";
@@ -47,23 +47,23 @@ body {
     left: 40px;
   }
 
-  .Home {
+.Home {
     background-color: #0f082f;
   }
 
-  .modal-title {
+.modal-title {
     font-family: Tahoma, " Geneva", " sans-serif";
     color: #0f082f;
     font-size: 26px; 
     font-weight: bold;
   }
 
-  .table {
+.table {
     background-color: #ffffff;
     color: #0f082f;
   }
   
-  .modal-content {
+.modal-content {
     top: 200px;
     display: -ms-flexbox;
     display: flex;
