@@ -51,4 +51,4 @@ Após isso, entre na conexão local para ter acesso as funcionalidades da API.
 
 #### QUALIDADE DE SOFTWARE:
 **Feito no Codacy:**
-  - [Quant-ux](https://app.codacy.com/gh/Gustavo274/Biblioteca-de-Alexandria/dashboard?branch=master).
+  - [Codacy](https://app.codacy.com/gh/Gustavo274/Biblioteca-de-Alexandria/dashboard?branch=master).
