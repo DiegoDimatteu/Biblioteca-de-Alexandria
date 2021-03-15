@@ -22,7 +22,7 @@ O intuito desta plataforma é catalogar livros com base no seu id, nota e títul
   - [CSS3](https://www.w3.org/Style/CSS/Overview.en.html);
   - [JavaScript](https://www.javascript.com/);
   - [NodeJS](https://nodejs.org/en/);
-  - [React] (https://pt-br.reactjs.org/).
+  - [React](https://pt-br.reactjs.org/).
 
 ## Instruções para execução
 
