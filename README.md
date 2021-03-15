@@ -1,5 +1,28 @@
 # Biblioteca-de-Alexandria
 
+## Informações do projeto
+
+### Objetivo:
+
+O intuito desta plataforma é catalogar livros com base no seu id, nota e título.
+
+#### Componentes:
+
+  - Diego Gabriel Prata Juliano Dimatteu Telles [191057600035];
+  - Guilherme Pereira Paiva [181057600032];
+  - Gustavo Santos Costa [181057600005].
+
+#### Plataforma: 
+  
+  - WEB.
+
+#### Tecnologias associadas:
+
+  - [HTML5](https://html5.org/);
+  - [CSS3](https://www.w3.org/Style/CSS/Overview.en.html);
+  - [JavaScript](https://www.javascript.com/);
+  - [NodeJS](https://nodejs.org/en/);
+  - [React](https://pt-br.reactjs.org/).
 
 ## Instruções para execução
 
