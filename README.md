@@ -42,3 +42,13 @@ npm run json:server
 ```
 
 Após isso, entre na conexão local para ter acesso as funcionalidades da API.
+
+
+
+#### PROTOTIPAGEM:
+**Feito no Quant-ux:**
+  - [Quant-ux](https://www.quant-ux.com/#/test.html?h=a2aa10apmfyEKmhon9NkZhyewla3umMLyrAsZnAcKn2wyfSjS6aoHOd6vA7O).
+
+#### QUALIDADE DE SOFTWARE:
+**Feito no Codacy:**
+  - [Quant-ux](https://app.codacy.com/gh/Gustavo274/Biblioteca-de-Alexandria/dashboard?branch=master).
