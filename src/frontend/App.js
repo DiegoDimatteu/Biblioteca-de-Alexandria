@@ -38,8 +38,8 @@ class App extends Component {
       books.push(response.data);
 
       this.setState({ books, newBookModal: false, newBookData: {
-        title: '',
-        rating: ''
+        title: "",
+        rating: ""
       }});
     });
   }
@@ -70,7 +70,7 @@ class App extends Component {
     axios.get("http://localhost:3000/books").then((response) => {
       this.setState({
         books: response.data
-      })
+      });
     });
   }
   render() {
