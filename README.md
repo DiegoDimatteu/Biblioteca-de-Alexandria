@@ -5,9 +5,9 @@
 
 ### Instalação dos requisitos
 Execute no terminal o seguinte comando para instalar os requisitos listados no arquivo ```packages.json```
-
+```
 npm i
-
+```
 ### Execução
 Em uma instância do terminal execute o seguinte comando para iniciar o npm
 ```
