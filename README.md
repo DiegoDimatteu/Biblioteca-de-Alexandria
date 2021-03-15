@@ -1,8 +1,8 @@
 # Biblioteca-de-Alexandria
 
-Instruções para compilação:
+## Instruções para compilação:
 
-No visual code ou ide de preferência, digite os seguintes comandos:
+### No visual code ou ide de preferência, digite os seguintes comandos:
 
 npm i
 
